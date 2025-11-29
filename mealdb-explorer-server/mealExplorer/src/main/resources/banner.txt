@@ -1,0 +1,27 @@
+__  __            _   ______            _                     
+ |  \/  |          | | |  ____|          | |                    
+ | \  / | ___  __ _| | | |__  __  ___ __ | | ___  _ __ ___ _ __ 
+ | |\/| |/ _ \/ _` | | |  __| \ \/ / '_ \| |/ _ \| '__/ _ \ '__|
+ | |  | |  __/ (_| | | | |____ >  <| |_) | | (_) | | |  __/ |   
+ |_|  |_|\___|\__,_|_| |______/_/\_\ .__/|_|\___/|_|  \___|_|   
+                                   | |                          
+   :: Powered by Spring Boot ::    |_|   (v1.0.0)               
+                                                                
+:: TheMealDB Explorer API ::  (v1.0.0)
+:: Author                 ::  Varun Waghode
+
+TECH STACK
+:: Spring Boot       	  ::  v2.7.18
+:: Java Version      	  ::  1.8
+:: Cache Engine      	  ::  Redis (Docker)
+:: Resilience        	  ::  Resilience4j (Circuit Breaker)
+:: Documentation     	  ::  OpenAPI / Swagger
+
+ACCESS POINTS
+:: Local Server      ::  http://localhost:8001
+:: API Docs (UI)     ::  http://localhost:8001/swagger-ui/index.html
+
+STATUS
+Circuit Breaker   ::  ARMED
+Async Threads     ::  READY
+Cache Warmer      ::  SCHEDULED (T-minus 5s)
