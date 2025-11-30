@@ -44,7 +44,7 @@ public class CacheWarmer {
 
     /**
      * Run every 30 minutes (fixedDelay in milliseconds).
-     *  initialDelay = 900000 (15 mins): Wait 30 mins before the FIRST run.
+     *  initialDelay = 900000 (15 mins): Wait 15 mins before the FIRST run.
      * 30 min = 1800000 ms
      */
     @Scheduled(fixedDelay = 1800000, initialDelay = 900000)
