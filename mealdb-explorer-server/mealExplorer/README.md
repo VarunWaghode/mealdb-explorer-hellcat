@@ -33,8 +33,9 @@ The application requires a Redis instance for caching. We run only Redis in Dock
 
 Run this command to start the Redis container:
 -----------------------------------------------------------------------
-docker run -d --name redis_local -p 6379:6379 \
-  redis:latest redis-server --maxmemory 200mb --maxmemory-policy allkeys-lru
+docker run -d --name redis_local -p 6379:6379 
+-----------------------------------------------------------------------
+docker exec -it redis_local redis-cli config set maxmemory 200mb
 -----------------------------------------------------------------------
 -----------------------------------------------------------------------
 -d: Detached mode (runs in background).
