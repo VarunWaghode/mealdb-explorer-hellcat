@@ -1,4 +1,4 @@
-Hell Cat's Meal Explorer - Frontend
+qHell Cat's Meal Explorer - Frontend
 
 The modern, responsive user interface for the TheMealDB Explorer application. Built with React and Tailwind CSS.
 
@@ -53,7 +53,7 @@ const API_URL = "http://localhost:8001/api/v1/meals";
 
 Run the development server:
 ------------------
-npm start
+npm run dev
 ------------------
 
 The app will open automatically at http://localhost:3000.
